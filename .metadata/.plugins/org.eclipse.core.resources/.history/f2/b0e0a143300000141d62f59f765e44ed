@@ -1,0 +1,27 @@
+import Package1.*;
+
+public class Class1 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Client c1=new Client();
+		c1.name="hfhds";
+		String s1=new String("ana");
+		String s2=new String("ana");
+		if ( s1 == s2)
+			syso("True");
+		else 
+			syso("False");
+		PostOffEmp posta=new PostOffEmp();
+		System.out.println("Hei");
+		System.out.println("Hello");
+		System.out.println("abc" + " "+ 3 );
+		System.out.println(c1.name);
+		System.out.println(posta.processReq("posta"));
+		
+
+	}
+
+}

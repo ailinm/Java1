@@ -1,0 +1,16 @@
+import Package1
+
+public class Class1 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Client c1=new Client();
+		c1.name="hfhds";
+		PostOffEmp posta=new PostOffEmp();
+		
+
+	}
+
+}

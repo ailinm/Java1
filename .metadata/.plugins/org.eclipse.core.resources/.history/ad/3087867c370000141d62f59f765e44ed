@@ -1,0 +1,22 @@
+
+public class Client {
+	
+	static String name;
+	String pack;
+	public Client(){
+		this.name="MyPackage";
+	}
+	public Client(String name){ 
+		//this.name=name;
+		this.name="ana";
+	}
+	
+	
+	public void sendReq(String pack){
+		this.pack=pack;
+		
+		
+	}
+	
+
+}

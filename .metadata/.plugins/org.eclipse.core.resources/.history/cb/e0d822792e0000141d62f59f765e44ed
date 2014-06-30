@@ -1,0 +1,20 @@
+import Package1.*;
+
+public class Class1 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Client c1=new Client();
+		c1.name="hfhds";
+		PostOffEmp posta=new PostOffEmp();
+		System.out.println("Hei");
+		System.out.print("Hello");
+		System.out.print("abc" + 3 );
+		System.out.println(c1.name);
+		
+
+	}
+
+}

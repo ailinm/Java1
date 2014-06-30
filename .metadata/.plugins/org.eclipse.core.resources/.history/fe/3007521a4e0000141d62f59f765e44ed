@@ -1,0 +1,10 @@
+
+public class Caine extends Animal {
+	@Override 
+	void feed(){
+		System.out.println("override");
+	}
+	
+	
+	
+}

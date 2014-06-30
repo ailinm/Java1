@@ -1,0 +1,11 @@
+
+public class Animal {
+	boolean hungry=true;
+	public Animal(boolean h){
+		this.hungry=h;
+	}
+	public void feed (){
+		System.out.println("Animal!");
+	}
+
+}
